@@ -15,12 +15,12 @@
             <br>
             <input class="input" v-model="object.pic[2]" placeholder="pic link 3">
             <br>
-                <input type="checkbox" id="M" value="M" v-model="object.size">
-                <label for="M">M</label>
-                <input type="checkbox" id="L" value="L" v-model="object.size">
-                <label for="L">L</label>
-                <input type="checkbox" id="XL" value="XL" v-model="object.size">
-                <label for="XL">XL</label>
+                <input type="checkbox" id="m" value="M" v-model="object.size">
+                <label for="m">M</label>
+                <input type="checkbox" id="l" value="L" v-model="object.size">
+                <label for="l">L</label>
+                <input type="checkbox" id="xl" value="XL" v-model="object.size">
+                <label for="xl">XL</label>
             <br>
             <textarea class="input" v-model="object.details" placeholder="details"></textarea>
             <select class="input" v-model="object.gender">
@@ -52,6 +52,7 @@ export default {
                 priceRent: null,
                 pic: [],
                 tag: [],
+                size: [],
                 status: 0,
                 details: null,
                 date: new Date(),

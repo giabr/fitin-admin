@@ -22,8 +22,12 @@ components:{
 },
 data: function(){
     return{
-        data: null
+        data: null,
+        token: null
     }
+},
+created(){
+    this.token = this.$route.params.token
 }
 }
 </script>

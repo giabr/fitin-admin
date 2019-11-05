@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <home></home>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from './views/Dashboard'
 
 export default {
   name: 'app',
-  components: {
-    Home
-  }
 }
 </script>
 
